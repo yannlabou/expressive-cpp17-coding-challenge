@@ -1,3 +1,9 @@
+# MacOS
+.DS_Store
+
+# CLion IDE
+.idea
+
 # Prerequisites
 *.d
 
