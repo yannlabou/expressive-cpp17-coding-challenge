@@ -12,6 +12,8 @@
 *.lo
 *.o
 *.obj
+*.swp
+*.swo
 
 # Precompiled Headers
 *.gch
@@ -36,3 +38,7 @@
 *.exe
 *.out
 *.app
+
+# Custom
+[B|b]uild
+*~
