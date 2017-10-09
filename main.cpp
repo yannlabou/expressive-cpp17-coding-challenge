@@ -81,10 +81,6 @@ int main(int argc, char* argv[])
                 std::cerr << "column name doesn't exists in the input file" << '\n';
                 break;
             }
-            else
-            {
-
-            }
             index = std::distance(vec_csv_row.begin(), city_column);
         }
         else
