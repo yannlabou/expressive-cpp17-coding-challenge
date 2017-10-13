@@ -11,7 +11,7 @@ bool is_empty(std::ifstream& input)
     return true;
 }
 
-std::vector<std::string> split(const std::string& csv_row, char delimiter = ',')
+std::vector<std::string> split(std::string_view csv_row, char delimiter = ',')
 {
     std::vector<std::string> result;
     auto p = std::begin(csv_row);

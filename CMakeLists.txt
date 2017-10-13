@@ -9,5 +9,5 @@ else()
     add_compile_options(-Wall -Wextra -Wpedantic)
 endif()
 
-add_executable(cpp17challenge main.cpp)
+add_executable(cpp17challenge src/main.cpp)
 target_link_libraries(cpp17challenge stdc++fs)
