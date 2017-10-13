@@ -11,3 +11,5 @@ endif()
 
 add_executable(cpp17challenge src/main.cpp)
 target_link_libraries(cpp17challenge stdc++fs)
+add_subdirectory(tests)
+
